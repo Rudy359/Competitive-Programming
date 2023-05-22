@@ -91,6 +91,6 @@ int32_t main(){
         cin >> i >> j >> k;
         auto it = sm.upper_bound(k);
         if(it == sm.end()) cout << 0 << '\n';
-        else cout << qry(roots[i - 1], roots[j], *it) << '\n';
+        else cout << (*it) << ' ' << qry(roots[i - 1], roots[j], *it) << '\n';
     }
 }
