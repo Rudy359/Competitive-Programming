@@ -1,3 +1,9 @@
 {
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "string_view": "cpp",
+        "regex": "cpp",
+        "iostream": "cpp"
+    }
 }
